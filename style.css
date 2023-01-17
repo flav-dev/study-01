@@ -1,0 +1,282 @@
+@charset "UTF-8"
+
+    
+:root {
+    --header:#a8d8ff;
+    --titulo-header:#60b1f3;
+    --sombras: #1d5481;
+    --fundo: #b5e1ff;
+    --nav: #60b1f3;
+    --fundo-h2: #82bcec;
+    
+    
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Future Earth';
+    
+    
+
+
+}
+
+header {
+background-image: linear-gradient(to top, #71bfff, #d2e9fc);
+padding-top: 30px;
+margin: 0px;
+min-height: 150px ;
+text-align: center;
+
+
+}
+
+header > h1
+{
+    font-size: 30px;
+    color: #60b1f3;
+    font-family:'Future Earth';
+    padding: 10px;
+    margin: 0px;
+    text-shadow: 0px 2px 5px #2d516e;
+
+       
+    
+}
+body
+{
+    height: 100%;
+    background-color: #cde8ff;
+    box-shadow: #1d5481;
+    background-image: #85afd1;
+background-attachment: fixed;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav
+{
+    background-color: #60b1f3;
+    box-shadow: 0px, 7px, 9px, #265577;
+    padding: 10px;
+    
+}
+
+nav > a 
+{
+color: #265577;
+padding: 7px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav > a:hover
+{
+   background-color: #9bccf7; 
+   border-radius: 5px;
+   transition-duration: 1s;
+}
+
+
+main
+{
+    background-color: #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 40px;
+    border-width: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 14px;
+    text-align: justify;
+    box-shadow: #1e3f57;
+    width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 25px #245e8d;
+}
+
+main img
+{
+   width: 100%;
+
+}
+
+main img.pequena
+{
+    max-width:300px;
+    display: block;
+    margin: auto;
+
+    
+}
+
+
+aside
+{
+    background-color: #acd9ff;
+    font-size: 14px;
+    color: #378ed4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #1e3f57;
+    
+}
+
+
+aside > h3
+{
+    color: #d8eeff;
+    background-color: #378ed4;
+    padding: 7px;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 3px 3px 20px #8bcbff;
+    text-indent: 20px;
+}
+
+h3
+{
+    margin-left: 50px;
+}
+
+aside > ul
+{
+    columns: 2;
+}
+
+
+aside p
+{
+    
+color: #378ed4;
+text-indent: 30px;
+}
+
+
+
+    
+    
+}
+
+
+h1
+{
+font-size: 30px;
+color: #3c6d8d;
+padding: 0px;
+margin: 0px;
+
+}
+
+h2
+{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #71abda, transparent)
+    
+}
+
+
+
+p
+{
+font-size: 14px;
+color: #2b71aa;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px;
+
+}
+
+main p 
+{
+    margin: 15px, 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main strong
+{
+color: #378ed4;
+}
+
+main a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #60b1f3;
+    background-color:#cde8ff;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+main a:hover
+{
+color: #60b1f3;
+background-color: white;
+}
+
+main h1
+{
+    font-size: 18px;
+    color: #60b1f3;
+}
+
+div.video 
+{
+    margin: 0px -20px 30px -20px
+    padding: 30px;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+div.video > iframe
+{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+
+}
+
+
+footer
+{
+    padding: 10px;
+    background-color: #60b1f3;
+    margin-top: 30px;
+    color: #3c6d8d;
+    
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    color: white;
+}
+
+
+a
+{
+    color: #2d6797;
+}
+a > body
+{
+    color: #346288;
+}
+
